@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anagramm-Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Anagramm-Generator</h1>
+    <div id="input-container">
+      <!-- input-rows in a table like structure -->
+      <table>
+        <thead>
+          <tr>
+            <th>Wort eingeben</th>
+            <th>Anagramme</th>
+          </tr>
+        </thead>
+        <tbody id="input-rows">
+          <!-- JS creates 5 input field -->
+        </tbody>
+      </table>
+      <button class="add-btn" onclick="addInputField()">Mehr Felder hinzufügen</button>
+      <button onclick="generateAnagrams()">Anagramme berechnen</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
