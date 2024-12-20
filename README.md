@@ -14,7 +14,12 @@ This project is a simple HTML application that lists anagrams of a given word. I
   ```bash
   cd html-list-anagrams
   ```
-3. Open `index.html` in your web browser.
+3. Open `src/index.html` in your web browser.
+3. OR you build a Docker image and run a container:
+  ```bash
+  docker build -t html-list-anagrams .
+  docker run -d --name html-list-anagrams -p 8080:80 html-list-anagrams
+  ``` 
 
 ## Usage
 
